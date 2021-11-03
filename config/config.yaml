@@ -14,7 +14,7 @@ source_download_path:
    - ../outside_data/lamborghini
    - ../outside_data/mercedes
 
-local_data_path:
+local_data_dirs:
 - data/audi
 - data/lamborghini
 - data/mercedes   
