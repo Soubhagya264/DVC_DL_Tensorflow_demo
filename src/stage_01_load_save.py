@@ -29,17 +29,6 @@ def get_data(config_path):
         create_directory([local_dir])
         copy_file(source_path,local_dir)
     
-    # print(df.head())
-    
-    # artifacts_dir=config["artifacts"]["artifacts_dir"]
-    # raw_local_dir=config["artifacts"]["raw_local_dir"]
-    # raw_local_file=config["artifacts"]["raw_local_file"]
-    
-    # raw_local_dir_path=os.path.join(artifacts_dir,raw_local_dir)
-    # create_directory(dirs=[raw_local_dir_path])
-    # raw_local_file_path=os.path.join(raw_local_dir_path,raw_local_file)
-    
-    # df.to_csv(raw_local_file_path,sep=",",index=False)
     
 if __name__=="__main__":
     args=argparse.ArgumentParser()
