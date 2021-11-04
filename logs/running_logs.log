@@ -1,0 +1,257 @@
+[2021-11-03 14:16:13,539: INFO: stage_01_load_save]: stage one started
+[2021-11-03 14:16:13,541: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 14:16:13,552: INFO: all_utils]: directory is created at data/audi
+[2021-11-03 14:16:13,569: INFO: all_utils]: directory is created at data/lamborghini
+[2021-11-03 14:16:13,591: INFO: all_utils]: directory is created at data/mercedes
+[2021-11-03 14:16:13,615: INFO: stage_01_load_save]: stage one completed !! all the data stored in local
+[2021-11-03 14:17:54,286: INFO: stage_01_load_save]: >>>>>>>>>> stage one started
+[2021-11-03 14:17:54,288: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 14:17:54,296: INFO: all_utils]: directory is created at data/audi
+[2021-11-03 14:17:54,315: INFO: all_utils]: directory is created at data/lamborghini
+[2021-11-03 14:17:54,336: INFO: all_utils]: directory is created at data/mercedes
+[2021-11-03 14:17:54,360: INFO: stage_01_load_save]: stage one completed !! all the data stored in local <<<<<<<<<<
+[2021-11-03 14:19:44,048: INFO: stage_01_load_save]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 14:19:44,050: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 14:19:44,058: INFO: all_utils]: directory is created at data/audi
+[2021-11-03 14:19:44,075: INFO: all_utils]: directory is created at data/lamborghini
+[2021-11-03 14:19:44,096: INFO: all_utils]: directory is created at data/mercedes
+[2021-11-03 14:19:44,122: INFO: stage_01_load_save]: stage one completed !! all the data stored in local 
+ >>>>>>>>>>>>
+[2021-11-03 22:43:02,090: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 22:43:02,090: ERROR: stage_02_prepare_base_model]: 'Namespace' object has no attribute 'parmas'
+Traceback (most recent call last):
+  File "src/stage_02_prepare_base_model.py", line 57, in <module>
+    prepare_base_model(config_path=parsed_args.config,params_path=parsed_args.parmas)
+AttributeError: 'Namespace' object has no attribute 'parmas'
+[2021-11-03 22:44:07,865: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 22:44:07,866: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:44:07,867: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:44:07,867: ERROR: stage_02_prepare_base_model]: 'BASE_MODEL_NAME'
+Traceback (most recent call last):
+  File "src/stage_02_prepare_base_model.py", line 57, in <module>
+    prepare_base_model(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/stage_02_prepare_base_model.py", line 25, in prepare_base_model
+    base_model_name=artifacts["BASE_MODEL_NAME"]
+KeyError: 'BASE_MODEL_NAME'
+[2021-11-03 22:45:18,540: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 22:45:18,541: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:45:18,542: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:45:18,543: INFO: all_utils]: directory is created at artifacts\base_model
+[2021-11-03 22:45:20,195: INFO: models]: VGG16 model saved at: artifacts\base_model\VGG16_base_model.h5
+[2021-11-03 22:45:20,214: INFO: models]: custom model is compiled and ready to trained
+[2021-11-03 22:45:20,215: ERROR: stage_02_prepare_base_model]: 'NoneType' object has no attribute 'summary'
+Traceback (most recent call last):
+  File "src/stage_02_prepare_base_model.py", line 57, in <module>
+    prepare_base_model(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/stage_02_prepare_base_model.py", line 44, in prepare_base_model
+    logging.info(f"{model.summary()}")
+AttributeError: 'NoneType' object has no attribute 'summary'
+[2021-11-03 22:48:31,033: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 22:48:31,034: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:48:31,035: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:48:31,035: INFO: all_utils]: directory is created at artifacts\base_model
+[2021-11-03 22:48:32,570: INFO: models]: VGG16 model saved at: artifacts\base_model\VGG16_base_model.h5
+[2021-11-03 22:48:32,584: INFO: models]: custom model is compiled and ready to trained
+[2021-11-03 22:48:32,594: INFO: stage_02_prepare_base_model]: None
+[2021-11-03 22:48:32,652: INFO: stage_02_prepare_base_model]: stage two completed !! base model is created 
+ >>>>>>>>>>>>
+[2021-11-03 22:51:51,710: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 22:51:51,712: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:51:51,713: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:51:51,713: INFO: all_utils]: directory is created at artifacts\base_model
+[2021-11-03 22:51:53,274: INFO: models]: VGG16 model saved at: artifacts\base_model\VGG16_base_model.h5
+[2021-11-03 22:51:53,289: INFO: models]: custom model is compiled and ready to trained
+[2021-11-03 22:51:53,298: INFO: stage_02_prepare_base_model]: None
+[2021-11-03 22:51:53,354: INFO: stage_02_prepare_base_model]: stage two completed !! base model is created 
+ >>>>>>>>>>>>
+[2021-11-03 22:53:56,237: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 22:53:56,239: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:53:56,240: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:53:56,240: INFO: all_utils]: directory is created at artifacts\base_model
+[2021-11-03 22:53:57,795: INFO: models]: VGG16 model saved at: artifacts\base_model\VGG16_base_model.h5
+[2021-11-03 22:53:57,809: INFO: models]: custom model is compiled and ready to trained
+[2021-11-03 22:53:57,818: INFO: stage_02_prepare_base_model]: None
+[2021-11-03 22:53:57,881: INFO: stage_02_prepare_base_model]: stage two completed !! base model is created 
+ >>>>>>>>>>>>
+[2021-11-03 22:59:43,763: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 22:59:43,765: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:59:43,765: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 22:59:43,766: INFO: all_utils]: directory is created at artifacts\base_model
+[2021-11-03 22:59:45,367: INFO: models]: VGG16 model saved at: artifacts\base_model\VGG16_base_model.h5
+[2021-11-03 22:59:45,383: INFO: models]: custom model is compiled and ready to trained
+[2021-11-03 22:59:45,384: INFO: stage_02_prepare_base_model]:  full model summary 
+ Model: "vgg16"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         [(None, 224, 224, 3)]     0         
+_________________________________________________________________
+block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792      
+_________________________________________________________________
+block1_conv2 (Conv2D)        (None, 224, 224, 64)      36928     
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (None, 112, 112, 64)      0         
+_________________________________________________________________
+block2_conv1 (Conv2D)        (None, 112, 112, 128)     73856     
+_________________________________________________________________
+block2_conv2 (Conv2D)        (None, 112, 112, 128)     147584    
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (None, 56, 56, 128)       0         
+_________________________________________________________________
+block3_conv1 (Conv2D)        (None, 56, 56, 256)       295168    
+_________________________________________________________________
+block3_conv2 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_conv3 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (None, 28, 28, 256)       0         
+_________________________________________________________________
+block4_conv1 (Conv2D)        (None, 28, 28, 512)       1180160   
+_________________________________________________________________
+block4_conv2 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_conv3 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (None, 14, 14, 512)       0         
+_________________________________________________________________
+block5_conv1 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv2 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
+=================================================================
+Total params: 14,714,688
+Trainable params: 0
+Non-trainable params: 14,714,688
+_________________________________________________________________
+
+[2021-11-03 22:59:45,437: INFO: stage_02_prepare_base_model]: stage two completed !! base model is created 
+ >>>>>>>>>>>>
+[2021-11-03 23:24:02,100: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-03 23:24:02,102: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 23:24:02,103: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-03 23:24:02,103: INFO: all_utils]: directory is created at artifacts\base_model
+[2021-11-03 23:24:03,683: INFO: models]: VGG16 model saved at: artifacts\base_model\VGG16_base_model.h5
+[2021-11-03 23:24:03,698: INFO: models]: custom model is compiled and ready to trained
+[2021-11-03 23:24:03,699: INFO: stage_02_prepare_base_model]:  full model summary 
+ Model: "vgg16"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         [(None, 224, 224, 3)]     0         
+_________________________________________________________________
+block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792      
+_________________________________________________________________
+block1_conv2 (Conv2D)        (None, 224, 224, 64)      36928     
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (None, 112, 112, 64)      0         
+_________________________________________________________________
+block2_conv1 (Conv2D)        (None, 112, 112, 128)     73856     
+_________________________________________________________________
+block2_conv2 (Conv2D)        (None, 112, 112, 128)     147584    
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (None, 56, 56, 128)       0         
+_________________________________________________________________
+block3_conv1 (Conv2D)        (None, 56, 56, 256)       295168    
+_________________________________________________________________
+block3_conv2 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_conv3 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (None, 28, 28, 256)       0         
+_________________________________________________________________
+block4_conv1 (Conv2D)        (None, 28, 28, 512)       1180160   
+_________________________________________________________________
+block4_conv2 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_conv3 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (None, 14, 14, 512)       0         
+_________________________________________________________________
+block5_conv1 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv2 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
+=================================================================
+Total params: 14,714,688
+Trainable params: 0
+Non-trainable params: 14,714,688
+_________________________________________________________________
+
+[2021-11-03 23:24:03,755: INFO: stage_02_prepare_base_model]: stage two completed !! base model is created 
+ >>>>>>>>>>>>
+[2021-11-04 10:51:50,124: INFO: stage_02_prepare_base_model]: 
+ >>>>>>>>>> stage one started
+[2021-11-04 10:51:50,126: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 10:51:50,127: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 10:51:50,127: INFO: all_utils]: directory is created at artifacts\base_model
+[2021-11-04 10:51:51,704: INFO: models]: VGG16 model saved at: artifacts\base_model\VGG16_base_model.h5
+[2021-11-04 10:51:51,719: INFO: models]: custom model is compiled and ready to trained
+[2021-11-04 10:51:51,720: INFO: stage_02_prepare_base_model]:  full model summary 
+ Model: "model"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         [(None, 224, 224, 3)]     0         
+_________________________________________________________________
+block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792      
+_________________________________________________________________
+block1_conv2 (Conv2D)        (None, 224, 224, 64)      36928     
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (None, 112, 112, 64)      0         
+_________________________________________________________________
+block2_conv1 (Conv2D)        (None, 112, 112, 128)     73856     
+_________________________________________________________________
+block2_conv2 (Conv2D)        (None, 112, 112, 128)     147584    
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (None, 56, 56, 128)       0         
+_________________________________________________________________
+block3_conv1 (Conv2D)        (None, 56, 56, 256)       295168    
+_________________________________________________________________
+block3_conv2 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_conv3 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (None, 28, 28, 256)       0         
+_________________________________________________________________
+block4_conv1 (Conv2D)        (None, 28, 28, 512)       1180160   
+_________________________________________________________________
+block4_conv2 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_conv3 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (None, 14, 14, 512)       0         
+_________________________________________________________________
+block5_conv1 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv2 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 25088)             0         
+_________________________________________________________________
+dense (Dense)                (None, 3)                 75267     
+=================================================================
+Total params: 14,789,955
+Trainable params: 75,267
+Non-trainable params: 14,714,688
+_________________________________________________________________
+
+[2021-11-04 10:51:51,764: INFO: stage_02_prepare_base_model]: stage two completed !! base model is created 
+ >>>>>>>>>>>>

@@ -2,7 +2,7 @@ artifacts:
    ARRIFACTS_DIR: artifacts
    TRINED_MODEL_DIR: model
    BASE_MODEL_DIR: base_model
-   Base_Model_Name: VGG16_base_model.h5
+   BASE_MODEL_NAME: VGG16_base_model.h5
    UPDATED_BASE_MODEL_NAME: updated_VGG16_base_model.h5
    CHECKPOINT_DIR:  checkpoints
    BASE_LOG_DIR: Base_model_dir
