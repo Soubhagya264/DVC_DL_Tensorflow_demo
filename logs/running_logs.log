@@ -255,3 +255,36 @@ _________________________________________________________________
 
 [2021-11-04 10:51:51,764: INFO: stage_02_prepare_base_model]: stage two completed !! base model is created 
  >>>>>>>>>>>>
+[2021-11-04 12:47:47,927: INFO: stage_03_prepare_callbacks]: 
+ >>>>>>>>>> stage three started
+[2021-11-04 12:47:47,929: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 12:47:47,930: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 12:47:47,930: ERROR: stage_03_prepare_callbacks]: 'ARTIFACTS_DIR'
+Traceback (most recent call last):
+  File "src/stage_03_prepare_callbacks.py", line 42, in <module>
+    prepare_callbacks(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/stage_03_prepare_callbacks.py", line 20, in prepare_callbacks
+    artifacts_dir=artifacts["ARTIFACTS_DIR"]
+KeyError: 'ARTIFACTS_DIR'
+[2021-11-04 12:50:46,031: INFO: stage_03_prepare_callbacks]: 
+ >>>>>>>>>> stage three started
+[2021-11-04 12:50:46,033: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 12:50:46,034: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 12:50:46,034: ERROR: stage_03_prepare_callbacks]: 'ARTIFACTS_DIR'
+Traceback (most recent call last):
+  File "src/stage_03_prepare_callbacks.py", line 42, in <module>
+    prepare_callbacks(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/stage_03_prepare_callbacks.py", line 20, in prepare_callbacks
+    artifacts_dir=artifacts["ARTIFACTS_DIR"]
+KeyError: 'ARTIFACTS_DIR'
+[2021-11-04 12:52:52,436: INFO: stage_03_prepare_callbacks]: 
+ >>>>>>>>>> stage three started
+[2021-11-04 12:52:52,438: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 12:52:52,439: INFO: all_utils]: Yaml file :{path_to_yaml} lodded sucessfully
+[2021-11-04 12:52:52,439: INFO: all_utils]: directory is created at artifacts\Tensorboard_log_dir
+[2021-11-04 12:52:52,440: INFO: all_utils]: directory is created at artifacts\checkpoints
+[2021-11-04 12:52:52,440: INFO: all_utils]: directory is created at artifacts\callbacks
+[2021-11-04 12:52:53,591: INFO: callbacks]: tensorboard callback is being saved at artifacts\callbacks\tb_cb.cb
+[2021-11-04 12:52:53,593: INFO: callbacks]: tensorboard callback is being saved at artifacts\callbacks\checkpoint_cb.cb
+[2021-11-04 12:52:53,593: INFO: stage_03_prepare_callbacks]: stage three completed !! callbacks are prepaired 
+ >>>>>>>>>>>>
